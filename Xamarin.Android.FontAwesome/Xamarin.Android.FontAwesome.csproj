@@ -16,7 +16,7 @@
     <AndroidResgenFile>Resources\Resource.Designer.cs</AndroidResgenFile>
     <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
     <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
-    <TargetFrameworkVersion>v8.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -56,12 +56,11 @@
     <None Include="Resources\AboutResources.txt" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="3.0.0.482510" />
-    <PackageReference Include="Xamarin.Android.Support.Design" Version="27.0.2" />
-    <PackageReference Include="Xamarin.Android.Support.v7.AppCompat" Version="27.0.2" />
-    <PackageReference Include="Xamarin.Android.Support.v4" Version="27.0.2" />
-    <PackageReference Include="Xamarin.Android.Support.v7.CardView" Version="27.0.2" />
-    <PackageReference Include="Xamarin.Android.Support.v7.MediaRouter" Version="27.0.2" />
+    <PackageReference Include="Xamarin.Forms" Version="4.8.0.1451" />
+    <PackageReference Include="Xamarin.Android.Support.Design" Version="28.0.0.3" />
+    <PackageReference Include="Xamarin.Android.Support.v7.AppCompat" Version="28.0.0.3" />
+    <PackageReference Include="Xamarin.Android.Support.v4" Version="28.0.0.3" />
+    <PackageReference Include="Xamarin.Android.Support.v7.CardView" Version="28.0.0.3" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\values\strings.xml" />
@@ -77,9 +76,9 @@
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <PropertyGroup>
-    <PreBuildEvent>copy /Y $(ProjectDir)"..\FontAwesome\use-on-desktop\Font Awesome 5 Brands-Regular-400.otf" $(ProjectDir)\Assets\FABrandsRegular.otf
-copy /Y $(ProjectDir)"..\FontAwesome\use-on-desktop\Font Awesome 5 Free-Regular-400.otf" $(ProjectDir)\Assets\FAFreeRegular.otf
-copy /Y $(ProjectDir)"..\FontAwesome\use-on-desktop\Font Awesome 5 Free-Solid-900.otf" $(ProjectDir)\Assets\FAFreeSolid.otf</PreBuildEvent>
+    <PreBuildEvent>copy /Y $(ProjectDir)"..\FontAwesome\otfs\Font Awesome 5 Brands-Regular-400.otf" $(ProjectDir)\Assets\FABrandsRegular.otf
+copy /Y $(ProjectDir)"..\FontAwesome\otfs\Font Awesome 5 Free-Regular-400.otf" $(ProjectDir)\Assets\FAFreeRegular.otf
+copy /Y $(ProjectDir)"..\FontAwesome\otfs\Font Awesome 5 Free-Solid-900.otf" $(ProjectDir)\Assets\FAFreeSolid.otf</PreBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
