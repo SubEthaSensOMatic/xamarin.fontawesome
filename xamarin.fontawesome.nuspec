@@ -18,6 +18,9 @@
 		<group targetFramework="MonoAndroid">
 			<dependency id="Xamarin.Forms" version="[4.6.0.726,5)" />
 		</group>
+		<group targetFramework="netstandard2.0">
+			<dependency id="Xamarin.Forms" version="[4.6.0.726,5)" />
+		</group>
 	</dependencies>		
   </metadata>
   
