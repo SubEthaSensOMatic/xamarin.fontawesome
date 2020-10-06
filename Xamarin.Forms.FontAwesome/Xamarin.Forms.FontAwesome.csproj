@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <Version>5.15.1</Version>
+    <Version>5.15.2</Version>
   </PropertyGroup>
 
   <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
@@ -14,7 +14,7 @@
     <SubType>Designer</SubType>
     <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
   </Page>
-  <PackageReference Include="Xamarin.Forms" Version="4.8.0.1451" />
+  <PackageReference Include="Xamarin.Forms" Version="[4.6.0.726,5)" />
   <Compile Update="**\*.xaml.cs" SubType="Code" DependentUpon="%(Filename)" />
   </ItemGroup>
 

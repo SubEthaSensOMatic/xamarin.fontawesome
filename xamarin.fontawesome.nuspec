@@ -2,21 +2,21 @@
 <package >
   <metadata>
     <id>xamarin.fontawesome</id>
-    <version>5.15.1</version>
+    <version>5.15.2</version>
     <title>xamarin.fontawesome</title>
     <authors>Ajid Welzel</authors>
     <owners>Ajid Welzel</owners>
     <licenseUrl>https://github.com/SubEthaSensOMatic/xamarin.fontawesome/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/SubEthaSensOMatic/xamarin.fontawesome</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>XamarinForms FontAwesome 5.15.1 integration</description>
+    <description>XamarinForms FontAwesome 5.15 integration</description>
     <releaseNotes></releaseNotes>
     <copyright>Copyright 2020</copyright>
     <tags>XAML Xamarin Forms FontAwesome</tags>
 	
 	<dependencies>
 		<group targetFramework="MonoAndroid">
-			<dependency id="Xamarin.Forms" version="4.8.0.1451" />
+			<dependency id="Xamarin.Forms" version="[4.6.0.726,5)" />
 		</group>
 	</dependencies>		
   </metadata>
